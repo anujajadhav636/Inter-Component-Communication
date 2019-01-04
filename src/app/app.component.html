@@ -1,0 +1,9 @@
+<div style="text-align:center">
+  <h1>
+    Marvellous Infosystems : Component Communication
+    <!-- Send data to child component-->
+  <!--  <app-child [xyz]="msg"></app-child> -->
+    <app-child (obj)= "str = $event" ></app-child>
+    {{str}}
+  </h1>
+</div> 
